@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A2789B179BA3660003B3FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A2789A179BA3660003B3FC /* CoreData.framework */; };
+		54A2789D179BA3660003B3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A2789C179BA3660003B3FC /* Foundation.framework */; };
+		54A278A0179BA3660003B3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A2789F179BA3660003B3FC /* main.m */; };
+		54A278A5179BA3660003B3FC /* TestingObjectiveC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54A278A3179BA3660003B3FC /* TestingObjectiveC.xcdatamodeld */; };
+		54A278A7179BA3660003B3FC /* TestingObjectiveC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 54A278A6179BA3660003B3FC /* TestingObjectiveC.1 */; };
+		54A278AF179BA3C20003B3FC /* car.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A278AE179BA3C20003B3FC /* car.m */; };
+		54A278B217A04B700003B3FC /* Car+CarCateogory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A278B117A04B700003B3FC /* Car+CarCateogory.m */; };
+		AACD89D61A23DD8E00FB6395 /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACD89D51A23DD8E00FB6395 /* Delegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		54A27895179BA3660003B3FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				54A278A7179BA3660003B3FC /* TestingObjectiveC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		54A27897179BA3660003B3FC /* TestingObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestingObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A2789A179BA3660003B3FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54A2789C179BA3660003B3FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		54A2789F179BA3660003B3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54A278A2179BA3660003B3FC /* TestingObjectiveC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestingObjectiveC-Prefix.pch"; sourceTree = "<group>"; };
+		54A278A4179BA3660003B3FC /* TestingObjectiveC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestingObjectiveC.xcdatamodel; sourceTree = "<group>"; };
+		54A278A6179BA3660003B3FC /* TestingObjectiveC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestingObjectiveC.1; sourceTree = "<group>"; };
+		54A278AD179BA3C20003B3FC /* car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = car.h; sourceTree = "<group>"; };
+		54A278AE179BA3C20003B3FC /* car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = car.m; sourceTree = "<group>"; };
+		54A278B017A04B700003B3FC /* Car+CarCateogory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Car+CarCateogory.h"; sourceTree = "<group>"; };
+		54A278B117A04B700003B3FC /* Car+CarCateogory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Car+CarCateogory.m"; sourceTree = "<group>"; };
+		AA9121BA1A23C77D00763A27 /* Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Delegate.h; sourceTree = "<group>"; };
+		AACD89D51A23DD8E00FB6395 /* Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Delegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A27894179BA3660003B3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A2789B179BA3660003B3FC /* CoreData.framework in Frameworks */,
+				54A2789D179BA3660003B3FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A2788E179BA3660003B3FC = {
+			isa = PBXGroup;
+			children = (
+				54A2789E179BA3660003B3FC /* TestingObjectiveC */,
+				54A27899179BA3660003B3FC /* Frameworks */,
+				54A27898179BA3660003B3FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A27898179BA3660003B3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A27897179BA3660003B3FC /* TestingObjectiveC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A27899179BA3660003B3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54A2789A179BA3660003B3FC /* CoreData.framework */,
+				54A2789C179BA3660003B3FC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54A2789E179BA3660003B3FC /* TestingObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				54A2789F179BA3660003B3FC /* main.m */,
+				54A278B017A04B700003B3FC /* Car+CarCateogory.h */,
+				54A278B117A04B700003B3FC /* Car+CarCateogory.m */,
+				54A278AD179BA3C20003B3FC /* car.h */,
+				54A278AE179BA3C20003B3FC /* car.m */,
+				54A278A6179BA3660003B3FC /* TestingObjectiveC.1 */,
+				54A278A3179BA3660003B3FC /* TestingObjectiveC.xcdatamodeld */,
+				54A278A1179BA3660003B3FC /* Supporting Files */,
+				AA9121BA1A23C77D00763A27 /* Delegate.h */,
+				AACD89D51A23DD8E00FB6395 /* Delegate.m */,
+			);
+			path = TestingObjectiveC;
+			sourceTree = "<group>";
+		};
+		54A278A1179BA3660003B3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54A278A2179BA3660003B3FC /* TestingObjectiveC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A27896179BA3660003B3FC /* TestingObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A278AA179BA3660003B3FC /* Build configuration list for PBXNativeTarget "TestingObjectiveC" */;
+			buildPhases = (
+				54A27893179BA3660003B3FC /* Sources */,
+				54A27894179BA3660003B3FC /* Frameworks */,
+				54A27895179BA3660003B3FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestingObjectiveC;
+			productName = TestingObjectiveC;
+			productReference = 54A27897179BA3660003B3FC /* TestingObjectiveC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A2788F179BA3660003B3FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "F5 Networks Inc.";
+			};
+			buildConfigurationList = 54A27892179BA3660003B3FC /* Build configuration list for PBXProject "TestingObjectiveC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54A2788E179BA3660003B3FC;
+			productRefGroup = 54A27898179BA3660003B3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A27896179BA3660003B3FC /* TestingObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A27893179BA3660003B3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A278A0179BA3660003B3FC /* main.m in Sources */,
+				AACD89D61A23DD8E00FB6395 /* Delegate.m in Sources */,
+				54A278A5179BA3660003B3FC /* TestingObjectiveC.xcdatamodeld in Sources */,
+				54A278AF179BA3C20003B3FC /* car.m in Sources */,
+				54A278B217A04B700003B3FC /* Car+CarCateogory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		54A278A8179BA3660003B3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		54A278A9179BA3660003B3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		54A278AB179BA3660003B3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingObjectiveC/TestingObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54A278AC179BA3660003B3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingObjectiveC/TestingObjectiveC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A27892179BA3660003B3FC /* Build configuration list for PBXProject "TestingObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A278A8179BA3660003B3FC /* Debug */,
+				54A278A9179BA3660003B3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A278AA179BA3660003B3FC /* Build configuration list for PBXNativeTarget "TestingObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A278AB179BA3660003B3FC /* Debug */,
+				54A278AC179BA3660003B3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		54A278A3179BA3660003B3FC /* TestingObjectiveC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				54A278A4179BA3660003B3FC /* TestingObjectiveC.xcdatamodel */,
+			);
+			currentVersion = 54A278A4179BA3660003B3FC /* TestingObjectiveC.xcdatamodel */;
+			path = TestingObjectiveC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 54A2788F179BA3660003B3FC /* Project object */;
+}
