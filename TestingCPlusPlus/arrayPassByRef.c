@@ -1,3 +1,8 @@
+// Test
+//- Array pass by reference only in C
+//- pointer arithmetic on array
+
+// Array decay into pointer. int [] -> int *
 #include <stdio.h>
 
 void f(int a[], int l)
