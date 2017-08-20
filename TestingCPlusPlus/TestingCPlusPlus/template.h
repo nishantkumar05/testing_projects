@@ -89,12 +89,12 @@ void demoExample1()
 {
     std::cout << "Example 1) Simple template: List of \"types\"\n";
     list<std::string> employees;
-    employees.addToTail("Nishant");
-    employees.addToTail("Bill");
-    employees.addToTail("Alex");
-    employees.addToTail("Endy");
-    employees.addToTail("Ivan");
-    employees.addToTail("Enamul");
+    employees.addToTail("Nis");
+    employees.addToTail("Bi");
+    employees.addToTail("Al");
+    employees.addToTail("En");
+    employees.addToTail("Iv");
+    employees.addToTail("En");
     employees.printList();
     
     
